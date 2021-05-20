@@ -1,0 +1,129 @@
+body{
+  background: #efefef;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-size: .9vw;
+  text-align: center;
+}
+.main-page{
+  width: 960px;
+  background: #c1c1c1;
+  margin: 0 auto;
+  border:  1px solid #919191;
+  height: 750px;
+}
+.content{
+  width: 670px;
+  margin-left: 10px;
+  float: left;
+}
+.actions{
+  width: 250px;
+  float: left;
+}
+.footer{
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  padding: 15px 0;
+}
+.digit-cells{
+  width: 220px;
+  height: 220px;
+  border:1px solid #999999;
+  float: left;
+  font-size: 6vw;
+  color:#fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.col1, .col8{
+  background-color: #7797a6;
+}
+.col2, .col4{
+  background-color: #488daa;
+}
+.col3,  .col5, .col9{
+  background-color: #33454d;
+}
+.col7, .col6{
+  background-color: #bfbfbf;
+}
+input{
+  background: #84c1d9;
+  width: 170px;
+  height: 40px;
+  margin: 20px 40px;
+  border: 1px solid #84c1d9;
+  cursor: pointer;
+  border-radius: 10px;
+  border-bottom: 5px solid #4d91ad;
+  text-transform: uppercase;
+  color:#fff;
+}
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  body, .main-page{
+      background: #fff;
+      margin: 0 auto;
+      width: 100%;
+      border: 0;
+  }
+  .digit-cells{
+      width: 90%;
+      height: 50px;
+      background: #f2f2f2;
+      border:1px solid #999999;
+      float: left;
+      font-size: 25px;
+      color:#111;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin: 15px auto;
+      padding: 10px;
+  }
+  .col1, .col8{
+      border-left: 25px solid #7797a6;
+  }
+  .col2, .col4{
+      border-left: 25px solid #488daa;
+  }
+  .col3,  .col5, .col9{
+      border-left: 25px solid #33454d;
+  }
+  .col7, .col6{
+      border-left: 25px solid #bfbfbf;
+  }
+  h1{
+      font-size: 30px;
+      text-align: center;
+      color: #fff;
+      background-color: #333;
+      padding: 40px 0;
+      margin: 0;
+  }
+  .content-area{
+      display: table;
+      width: 90%;
+      margin: auto;
+  }
+  .actions{
+      display: table-header-group;
+      float: none;
+      text-align: center;
+  }
+  .content{
+      display: table-footer-group;
+      float: none;
+  }
+  input{
+      height: 80px;
+  }
+}
